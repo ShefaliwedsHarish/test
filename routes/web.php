@@ -21,6 +21,10 @@ Route::POST('/adddata',[studentController::class,'add']);
 Route::get('/student/{id}/edit',[studentController::class,'edit']);
 Route::PUT('/student/{id}/update',[studentController::class,'update']);
 Route::delete('/student/{id}/delete',[studentController::class,'delete_id']);
+Route::get('/welcome',function(){
+   dd('heelo this is testing'); 
+
+});
 
 
 
