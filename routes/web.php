@@ -23,6 +23,7 @@ Route::PUT('/student/{id}/update',[studentController::class,'update']);
 Route::delete('/student/{id}/delete',[studentController::class,'delete_id']);
 Route::get('/welcome',function(){
    dd('heelo this is testing'); 
+   "this is testing";
 
 });
 
